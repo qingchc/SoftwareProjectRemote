@@ -1,0 +1,30 @@
+{
+    "name": "vue3study",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "lint": "eslint --ext .js,.vue src",
+        "lint:fix": "eslint .js,.vue src --fix",
+        "format": "prettier --write src/ index.html package.json package-lock.json vite.config.js jsconfig.json"
+    },
+    "dependencies": {
+        "@element-plus/icons-vue": "^2.3.1",
+        "element-plus": "^2.9.7",
+        "vue": "^3.5.13"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^5.2.1",
+        "eslint": "^9.21.0",
+        "eslint-config-prettier": "^10.0.2",
+        "eslint-plugin-prettier": "^5.2.3",
+        "eslint-plugin-vue": "^9.33.0",
+        "globals": "^16.0.0",
+        "prettier": "^3.5.3",
+        "vite": "^6.1.0",
+        "vite-plugin-vue-devtools": "^7.7.2"
+    }
+}
